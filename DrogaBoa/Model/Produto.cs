@@ -20,7 +20,7 @@ namespace DrogaBoa.Model
 
         [Column(TypeName = "varchar")]
         [StringLength(255)]
-        public string Tipo { get; set; } = string.Empty;
+        public string Descricao { get; set; } = string.Empty;
 
         [Column(TypeName = "decimal")]
         [Precision(20, 2)]

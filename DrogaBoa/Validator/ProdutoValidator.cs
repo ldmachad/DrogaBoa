@@ -12,7 +12,7 @@ namespace DrogaBoa.Validator
                     .MinimumLength(4)
                     .MaximumLength(255);
 
-            RuleFor(p => p.Tipo)
+            RuleFor(p => p.Descricao)
                     .NotEmpty()
                     .MinimumLength(4)
                     .MaximumLength(255);
